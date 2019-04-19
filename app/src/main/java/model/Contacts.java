@@ -5,6 +5,14 @@ public class Contacts {
     private String phoneNo;
     private int imageId;
 
+    public Contacts(String name, String phoneNo, int imageId)
+
+    {
+        this.name=name;
+        this.phoneNo=phoneNo;
+        this.imageId=imageId;
+    }
+
     public String getName() {
         return name;
     }
@@ -21,11 +29,11 @@ public class Contacts {
         this.phoneNo = phoneNo;
     }
 
-    public int getImageId() {
+    public int getImage() {
         return imageId;
     }
 
-    public void setImageId(int imageId) {
+    public void setImage(int imageId) {
         this.imageId = imageId;
     }
 }
